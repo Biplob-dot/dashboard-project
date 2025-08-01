@@ -151,7 +151,7 @@ svg, img{
     width: 100%;
     display: grid;
     align-items: center;
-    grid-template-rows: 35% 65%;
+    grid-template-rows: 40% 60%;
     font-weight: 700;
 }
 
@@ -216,7 +216,7 @@ svg, img{
 .project-card-description-container{
     height: 100%;
     width: 100%;
-    padding: 3rem 3rem 2rem 2rem;
+    padding: 3rem 3rem 2rem 3rem;
     display: grid;
     grid-template-rows: 4fr 1fr;
 }
@@ -256,12 +256,13 @@ svg, img{
 .annoucement-card-content-heading{
     font-weight: 700;
     font-size: 1.2rem;
+    margin-bottom: 1%;
 }
 
 .annoucement-card-content-container{
     width: 100%;
     height: 100%;
-    padding: 2.25rem;
+    padding: 2.5rem;
     display: grid;
     grid-template-rows: repeat(3,auto);
     grid-gap: 1rem;
@@ -273,4 +274,35 @@ svg, img{
 
 .annoucement-card-description-container:last-child{
     border: none;
+}
+
+.trending-card{
+    padding: 2rem;
+}
+
+.trending-card-content-container{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2rem 1rem;
+    place-items: center;
+}
+
+.trending-avatar{
+    height: 5.5rem;
+    width: 5.5rem;
+}
+
+.trending-content{
+    justify-self: left;
+    font-size: 1.25rem;
+}
+
+.trending-content-header{
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+}
+
+.trending-content-description{
+    color: #5c5c5c;
 }
